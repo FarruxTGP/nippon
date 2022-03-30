@@ -22,6 +22,7 @@ function Mobile() {
           <a href="/">Natijalar</a>
           <a href="/">Hamkorlar</a>
           <a href="/">Kontakt</a>
+          <a href="+998 93 349 27 77">93 349 27 77</a>
         </div>
       </nav>
       <Sliders />

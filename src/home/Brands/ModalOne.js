@@ -118,16 +118,16 @@ function ModalOne(props) {
                   <img src={brain} alt="" />
                   <p>
                     {" "}
-                    <FormattedMessage id="lern1" />
+                    <FormattedMessage id="daraja1" />
                   </p>
                 </div>
                 <div className="row_grid">
                   <img src={time} alt="" />
-                  <p><FormattedMessage id="lern2" /></p>
+                  <p><FormattedMessage id="daraja2" /></p>
                 </div>
                 <div className="row_grid">
                   <img src={task} alt="" />
-                  <p><FormattedMessage id="lern3" /></p>
+                  <p><FormattedMessage id="daraja3" /></p>
                 </div>
 
                 <button onClick={() => setmodal(true)} className="btn">
@@ -147,16 +147,16 @@ function ModalOne(props) {
                   <img src={brain} alt="" />
                   <p>
                     {" "}
-                    <FormattedMessage id="lern1" />
+                    <FormattedMessage id="daraja1" />
                   </p>
                 </div>
                 <div className="row_grid">
                   <img src={time} alt="" />
-                  <p><FormattedMessage id="lern2" /></p>
+                  <p><FormattedMessage id="daraja2" /></p>
                 </div>
                 <div className="row_grid">
                   <img src={task} alt="" />
-                  <p><FormattedMessage id="lern3" /></p>
+                  <p><FormattedMessage id="daraja3" /></p>
                 </div>
 
                 <button onClick={() => setmodal(true)} className="btn">
@@ -176,16 +176,16 @@ function ModalOne(props) {
                   <img src={brain} alt="" />
                   <p>
                     {" "}
-                    <FormattedMessage id="lern1" />
+                    <FormattedMessage id="daraja4" />
                   </p>
                 </div>
                 <div className="row_grid">
                   <img src={time} alt="" />
-                  <p><FormattedMessage id="lern2" /></p>
+                  <p><FormattedMessage id="daraja5" /></p>
                 </div>
                 <div className="row_grid">
                   <img src={task} alt="" />
-                  <p><FormattedMessage id="lern3" /></p>
+                  <p><FormattedMessage id="daraja6" /></p>
                 </div>
 
                 <button onClick={() => setmodal(true)} className="btn">
@@ -205,16 +205,16 @@ function ModalOne(props) {
                   <img src={brain} alt="" />
                   <p>
                     {" "}
-                    <FormattedMessage id="lern1" />
+                    <FormattedMessage id="daraja7" />
                   </p>
                 </div>
                 <div className="row_grid">
                   <img src={time} alt="" />
-                  <p><FormattedMessage id="lern2" /></p>
+                  <p><FormattedMessage id="daraja8" /></p>
                 </div>
                 <div className="row_grid">
                   <img src={task} alt="" />
-                  <p><FormattedMessage id="lern3" /></p>
+                  <p><FormattedMessage id="daraja9" /></p>
                 </div>
 
                 <button onClick={() => setmodal(true)} className="btn">
@@ -234,16 +234,16 @@ function ModalOne(props) {
                   <img src={brain} alt="" />
                   <p>
                     {" "}
-                    <FormattedMessage id="lern1" />
+                    <FormattedMessage id="daraja10" />
                   </p>
                 </div>
                 <div className="row_grid">
                   <img src={time} alt="" />
-                  <p><FormattedMessage id="lern2" /></p>
+                  <p><FormattedMessage id="daraja11" /></p>
                 </div>
                 <div className="row_grid">
                   <img src={task} alt="" />
-                  <p><FormattedMessage id="lern3" /></p>
+                  <p><FormattedMessage id="daraja12" /></p>
                 </div>
 
                 <button onClick={() => setmodal(true)} className="btn">
@@ -263,16 +263,16 @@ function ModalOne(props) {
                   <img src={brain} alt="" />
                   <p>
                     {" "}
-                    <FormattedMessage id="lern1" />
+                    <FormattedMessage id="daraja13" />
                   </p>
                 </div>
                 <div className="row_grid">
                   <img src={time} alt="" />
-                  <p><FormattedMessage id="lern2" /></p>
+                  <p><FormattedMessage id="daraja14" /></p>
                 </div>
                 <div className="row_grid">
                   <img src={task} alt="" />
-                  <p><FormattedMessage id="lern3" /></p>
+                  <p><FormattedMessage id="daraja15" /></p>
                 </div>
 
                 <button onClick={() => setmodal(true)} className="btn">

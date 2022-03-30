@@ -22,17 +22,16 @@ function SliderItem(props) {
           </div>
         )}
         <div>
-          <p>
+          {/* <p>
             <FormattedMessage
               id="slide"
               values={{ fileName: "src/App.js", code: (word) => <br /> }}
             />
-          </p>
+          </p> */}
           <h1>
-            <FormattedMessage
-              id="slide.1"
-              values={{ fileName: "src/App.js", code: (word) => <br /> }}
-            />
+            {
+              props.tex
+            }
           </h1>
 
           <button onClick={() => setmodal(!modal)}>
@@ -43,7 +42,7 @@ function SliderItem(props) {
             />
           </button>
         </div>
-        <img src={Boy} alt="" />
+        <img src={props.img} alt="" />
       </div>
     </div>
   );

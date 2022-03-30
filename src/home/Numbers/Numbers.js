@@ -37,14 +37,9 @@ function Numbers() {
           </FadeIn>
 
           <div className="txt__numbers">
-            <span>Lorem ipsum dolor sit </span>
+            <span> </span>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-              aliquam, purus sit amet luctus venenatis, lectus magnafringilla
-              urna, porttitor rhoncus dolor purus non enim praesent elementum
-              facilisis leo, vel fringilla est Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit ut aliquam, purus sit amet luctus
-              venenatis, lectus magna fringilla urna, porttitor.
+              <FormattedMessage id="about"/>
             </p>
           </div>
         </FadeIn>
