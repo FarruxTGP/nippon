@@ -112,7 +112,7 @@ function ModalOne(props) {
             <FadeIn>
               <div className="card__brand dark">
                 <h1>
-                  <span>Beginner</span>
+                  <span>N1 <FormattedMessage id="modal"/></span>
                 </h1>
                 <div className="row_grid">
                   <img src={brain} alt="" />
@@ -141,7 +141,7 @@ function ModalOne(props) {
             <FadeIn>
               <div className="card__brand dark">
                 <h1>
-                  <span>Beginner</span>
+                  <span>N1 <FormattedMessage id="modal"/></span>
                 </h1>
                 <div className="row_grid">
                   <img src={brain} alt="" />
@@ -170,7 +170,7 @@ function ModalOne(props) {
             <FadeIn>
               <div className="card__brand dark">
                 <h1>
-                  <span>Elementry</span>
+                  <span>N2 <FormattedMessage id="modal"/></span>
                 </h1>
                 <div className="row_grid">
                   <img src={brain} alt="" />
@@ -199,7 +199,7 @@ function ModalOne(props) {
             <FadeIn>
               <div className="card__brand dark">
                 <h1>
-                  <span>Intermedit</span>
+                  <span>N3 <FormattedMessage id="modal"/></span>
                 </h1>
                 <div className="row_grid">
                   <img src={brain} alt="" />
@@ -228,7 +228,7 @@ function ModalOne(props) {
             <FadeIn>
               <div className="card__brand dark">
                 <h1>
-                  <span>Pre-indermedit</span>
+                  <span>N4 <FormattedMessage id="modal"/></span>
                 </h1>
                 <div className="row_grid">
                   <img src={brain} alt="" />
@@ -257,7 +257,7 @@ function ModalOne(props) {
             <FadeIn>
               <div className="card__brand dark">
                 <h1>
-                  <span>Ielts</span>
+                  <span>N5 <FormattedMessage id="modal"/></span>
                 </h1>
                 <div className="row_grid">
                   <img src={brain} alt="" />
