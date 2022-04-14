@@ -3,6 +3,8 @@
 }
 .team {
   padding: 10vw 0;
+  background-size: cover;
+  background-position: top;
   background-image: url(../../assets/img/japane2.png);
 }
 .team .slick-next,

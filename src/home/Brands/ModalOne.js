@@ -74,35 +74,35 @@ function ModalOne(props) {
               className={Beginner === "beginner" && "active"}
             >
               {" "}
-              <p>1</p> <span>Beginner</span>
+              <p>1</p> <span>N1 <FormattedMessage id="modal"/></span>
             </li>
             <li
               onClick={() => setBeginner("Elementry")}
               className={Beginner === "Elementry" && "active"}
             >
               {" "}
-              <p>2</p> <span>Elementry</span>
+              <p>2</p> <span>N2  <FormattedMessage id="modal"/></span>
             </li>
             <li
               onClick={() => setBeginner("Intermedit")}
               className={Beginner === "Intermedit" && "active"}
             >
               {" "}
-              <p>3</p> <span>Intermedit</span>
+              <p>3</p> <span>N3  <FormattedMessage id="modal"/></span>
             </li>
             <li
               onClick={() => setBeginner("Pre-indermedit")}
               className={Beginner === "Pre-indermedit" && "active"}
             >
               {" "}
-              <p>4</p> <span>Pre-indermedit</span>
+              <p>4</p> <span>N3  <FormattedMessage id="modal"/></span>
             </li>
             <li
               onClick={() => setBeginner("Ielts")}
               className={Beginner === "Ielts" && "active"}
             >
               {" "}
-              <p>5 </p> <span>Ielts</span>
+              <p>5 </p> <span>N5  <FormattedMessage id="modal"/></span>
             </li>
           </ul>
         </FadeIn>

@@ -32,7 +32,7 @@ function Team() {
     <div className="team">
       <FadeIn className=" container">
         <div className="title__numbers childrens">
-          <h1><FormattedMessage id="onjapan"/></h1>
+          <h1><FormattedMessage id="students"/></h1>
         </div>
         <Slider {...settings}>
           {Response.map((item) => (

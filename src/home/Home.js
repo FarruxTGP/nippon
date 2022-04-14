@@ -91,7 +91,7 @@ class FullpageReact extends React.Component {
     const Context = this.context;
     const currentActive = active.Fullpage;
     const goToTop = changeFullpageSlide.bind(null, 0);
-    const nextSlide = changeFullpageSlide.bind(null, currentActive + 1);
+    const netx = changeFullpageSlide.bind(null, currentActive + 1);
     const gotoBrend = changeFullpageSlide.bind(null, 1);
     const gotoAbout = changeFullpageSlide.bind(null, 2);
     const gotoNumber = changeFullpageSlide.bind(null, 4);
@@ -184,6 +184,9 @@ class FullpageReact extends React.Component {
             <FormattedMessage id="app.header4" />
           </button>
         </span>
+          {/* <button onClick={netx}>
+            next
+          </button> */}
         <span>
           <button
             onClick={() => {

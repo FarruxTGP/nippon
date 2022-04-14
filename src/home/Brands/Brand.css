@@ -190,6 +190,7 @@
   padding: 1.4vw 1vw;
   border: transparent;
   bottom: 0;
+  font-size: 1vw;
 }
 .btn{
   cursor: pointer;
@@ -262,3 +263,7 @@
   border: none;
   border-radius: 10vw;
 }
+ div.row__brand.dark > div.col__modal > div > span > img{
+  width: 3vw;
+}
+ 

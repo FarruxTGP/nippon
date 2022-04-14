@@ -32,7 +32,7 @@ function About() {
     <div className="bg__default">
       <FadeIn className="natijalar">
         <div className="title__numbers">
-          <h1>Natijalar</h1>
+          <h1><FormattedMessage id="app.header3"/></h1>
         </div>
         <Slider {...settings}>
           {Response.map((item) => (
@@ -44,19 +44,19 @@ function About() {
                 />
                 <div className="txt__nat">
                   <div className="item__nat">
-                    <p>Reading</p>
+                    <p><FormattedMessage id="ielts1"/></p>
                     <b>{item.task1}</b>
                   </div>
                   <div className="item__nat">
-                    <p>Listening</p>
+                    <p><FormattedMessage id="ielts2"/></p>
                     <b>{item.task2}</b>
                   </div>
                   <div className="item__nat">
-                    <p>Writing</p>
+                    <p><FormattedMessage id="ielts3"/></p>
                     <b>{item.task3}</b>
                   </div>
                   <div className="item__nat">
-                    <p>Writing</p>
+                    <p><FormattedMessage id="ielts4"/></p>
                     <b>{item.ball}</b>
                   </div>
                 </div>

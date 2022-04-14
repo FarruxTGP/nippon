@@ -37,7 +37,7 @@ function Map() {
           <form onSubmit={handleSubmit}>
             <h1><FormattedMessage id="partner"/>,</h1>
             <p><FormattedMessage id="partner1"/> </p>
-            <input type="text" placeholder="Ismingiz" required />
+            <input type="text" placeholder={<FormattedMessage id="name"/> } required />
             <PhoneInput
               placeholder="Telefon raqamingiz"
               international

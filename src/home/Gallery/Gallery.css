@@ -3,6 +3,7 @@
   background-image: url(../../assets/img/japane2.png);
   height: 100vh;
   padding: 8vw 0;
+  background-size: 100%;
 }
 .faq .title__numbers h1 {
   font-size: 2vw;

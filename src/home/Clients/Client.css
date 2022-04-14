@@ -5,6 +5,7 @@
     padding: 10vw 0;
     background-image: url(../../assets/img/japane2.png);
     height: 100vh;
+    background-size: 100%;
 }
 .row__lic{
     display: grid;

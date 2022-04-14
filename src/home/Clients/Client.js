@@ -10,19 +10,15 @@ function Client({ next }) {
       <div className="license">
         <FadeIn className="container">
           <div className="title__numbers">
-            <h1>Litsenziya</h1>
+            <h1><FormattedMessage id="licensetitle"/></h1>
           </div>
           <FadeIn className="row__lic">
             <div className="txt__lic">
               <h1>
-                Markazimiz O’zbekiston Respublikasi qonunchiligiga muvofiq
-                litsenziyalangan
+                <FormattedMessage id="licenseh1"/>
               </h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-                aliquam, purus sit amet luctus venenatis, lectus magnafringilla
-                urna, porttitor rhoncus dolor purus non enim praesent elementum
-                facilisis leo, vel fringilla est
+              <FormattedMessage id="license"/>
               </p>
             </div>
             <img src={license} alt="" />

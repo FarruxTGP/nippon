@@ -64,7 +64,7 @@ function ModalTwo(props) {
             </h1>
             <img src={magistir} className="img" alt="" />
             <p className="custom__p">
-              <FormattedMessage id="gotojapan6"/>
+              <FormattedMessage id="modal1"/>
             </p>
           </div>
          </FadeIn>
@@ -77,7 +77,7 @@ function ModalTwo(props) {
             </h1>
             <img src={magistir} className="img" alt="" />
             <p className="custom__p">
-              <FormattedMessage id="gotojapan6"/>
+              <FormattedMessage id="modal1"/>
             </p>
           </div>
          </FadeIn>
@@ -90,7 +90,7 @@ function ModalTwo(props) {
             </h1>
             <img src={magistir} className="img" alt="" />
             <p className="custom__p">
-              <FormattedMessage id="gotojapan6"/>
+              <FormattedMessage id="modal2"/>
             </p>
           </div>
           </FadeIn>
@@ -103,7 +103,7 @@ function ModalTwo(props) {
             </h1>
             <img src={magistir} className="img" alt="" />
             <p className="custom__p">
-              <FormattedMessage id="gotojapan6"/>
+              <FormattedMessage id="modal3"/>
             </p>
           </div>
           </FadeIn>
@@ -116,7 +116,7 @@ function ModalTwo(props) {
             </h1>
             <img src={magistir} className="img" alt="" />
             <p className="custom__p">
-              <FormattedMessage id="gotojapan6"/>
+              <FormattedMessage id="modal4"/>
             </p>
           </div>
          </FadeIn>
@@ -129,7 +129,7 @@ function ModalTwo(props) {
             </h1>
             <img src={magistir} className="img" alt="" />
             <p className="custom__p">
-              <FormattedMessage id="gotojapan6"/>
+              <FormattedMessage id="modal5"/>
             </p>
           </div>
          </FadeIn>

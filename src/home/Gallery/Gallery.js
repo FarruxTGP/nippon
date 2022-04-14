@@ -11,6 +11,7 @@ import soroq from "../../assets/img/soroq.png";
 import FadeIn from "react-fade-in/lib/FadeIn";
 // Demo styles, see 'Styles' section below for some notes on use.
 import "react-accessible-accordion/dist/fancy-example.css";
+import { FormattedMessage } from "react-intl";
 function Gallery() {
   const [Response, setResponse] = React.useState([]);
   React.useEffect(() => {
@@ -22,7 +23,7 @@ function Gallery() {
     <div className="faq">
       <div className="container">
         <FadeIn className="title__numbers">
-          <h1>Ko’p beriladigan savollar</h1>
+          <h1><FormattedMessage id="faq"/></h1>
           <div className="row__faq">
             <Accordion allowZeroExpanded={true}>
               {Response.map((item) => (
